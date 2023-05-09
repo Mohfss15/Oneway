@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+  box-sizing: border-box;
+}
+#html{
+    scroll-behavior: smooth;
+}
+body{
+     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', sans-serif;
+     font-family: 'Cairo', sans-serif;;
+
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px ;
+    margin: auto;
+}
+/* Utillit classes */
+.praimery-text{
+    color:red;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+     border:none ;
+     border-radius: 15px;
+     margin:5rem;
+
+}
+.btn-praimery{
+color: #fff;
+border: 1px solid #fff;
+}
+.btn-secodery{
+    color: #fff;
+    background: #383848;
+    margin-top:2rem;
+    
+
+}
+.btn-praimery:hover,
+.btn-secodery:hover,
+.btn-third{
+    background: red;
+}
+/* Header start*/
+header{
+    height: 100vh;
+    background:url("/11402744e395082fffcc7dd418b1a54a.jpg")center center/cover no-repeat;
+    position: relative;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#nav img {
+width:110px;
+margin-left: 100px;
+}
+#nav ul{
+    display: flex;
+    margin: right 100px;;
+}
+#nav ul  li a{
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+#nav ul  li a:hover{
+    border-bottom: 2px solid red;
+}
+ #content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 75vh;
+        
+}
+ #content h1{
+    font-size: 40px;
+    color: #fff;
+    direction: rtl;
+}
+#content p{
+    margin:20px 0 40px ;
+    color: white;
+    font-size: 30px;
+}
+header::before{
+
+    position:absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+   
+}
+header *{
+    z-index: 10;
+}
+/*contact start*/
+#contact1 {
+    background: #f4f2ed;
+    padding: 5rem 0;
+    
+    align-items: center;
+    justify-content:space-evenly;
+    align-items: center;
+   
+  }
+  
+  #contact1 .container {
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+  }
+
+  
+  #contact1 .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #contact1 .contact-info {
+    width: 50%;
+  }
+  
+  #contact1 .contact-info div {
+    margin: 30px 0;
+    line-height: 1.7;
+  }
+  
+  #contact1 .contact-info h3 {
+    font-size: 28px;
+    color: #383848;
+    margin-bottom: 10px;
+  }
+  
+  #contact1 .contact-info p {
+    color: #9a9a9a;
+  }
+  
+  #contact1 .contact-info p i {
+    color: #e4b95b;
+    margin-right: 5px;
+  }
+  
+  #contact1 .contact-info a i {
+    color: #fff;
+    background: #383848;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  
+  #contact1 .contact-info a i:hover {
+    background-color: red;
+    color: #383848;
+  }
+  form {
+      width: 50%;
+  }
+  form input ,
+  textarea{
+      display: block;
+      width: 100%;
+      padding: 20px 15px ;
+      margin: 20px 0 ;
+      border: none;
+      background-color: #e3e2dd;
+  }
+  #contact1 .btn{
+    display: block;
+    margin:20px auto 0;
+ background: #9a9a9a;
+ color: #fff;
+ cursor:pointer;
+}
+#contact1 .btn:hover{
+    background: red;
+}
+/*contact end*/
+ /*contact start*/
+ #contact {
+    background: #fff;
+    padding: 5rem 0;
+  
+  }
+  
+  #contact .container {
+    max-width: 900px;
+  }
+  
+  #contact .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #contact .contact-info {
+    width: 50%;
+  }
+  
+  #contact .contact-info div {
+    margin: 30px 0;
+    line-height: 1.7;
+  }
+  
+  #contact .contact-info h3 {
+    font-size: 28px;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  #contact .contact-info p {
+    color: black;
+  }
+  
+  #contact .contact-info p i {
+    color: red;
+    margin-right: 5px;
+  }
+  #content img{
+    width: 250px;
+    height: 100p;
+  }
+  
+  #contact .contact-info a i {
+    color: #fff;
+    background: #383848;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  
+  #contact .contact-info a i:hover {
+    background-color: red;
+    color: #383848;
+  }
+  form {
+      width: 50%;
+  }
+  form input , 
+  textarea{
+      display: block;
+      width: 100%;
+      padding: 20px 15px ;
+      margin: 20px 0 ;
+      border: none;
+      background-color: #e3e2dd;
+  }
+  #contact .btn{
+    display: block;
+    margin:20px auto 0;
+ background: red;
+ color: #fff;
+ cursor:pointer;
+}
+#contact .btn:hover{
+    background: #383848;
+}
+/*contact end*/
+/* FOOTER START */
+#footer{
+    background: #383848;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+}
+#footer a {
+    color: #fff;
+}
+/* FOOTER end */
+
+
+
+
+  
